@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="my game" />
+    <title>my game</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <!-- style.css-->
+    <link rel="stylesheet" type="text/css" href="resources/css/hardlevel.css" />
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/c87587e1fa.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
+    <!--jquery-->
+   
+</head>
+
+<body onload="startTime()"> 
+   <div class="container p-5 bg-dark game-stop  " id="game-stop">
+   <div class="row ">
+       <div class="col-12 ">
+           <h1 class="text-danger text-center  ">Game Over</h1>
+   <a href="index.html" class="btn btn-primary text-center mx-auto btn-block py-3 ">Play Again</a>
+       </div>
+   </div>
+   
+   </div>
+ <div class="container-fluid bg-secondary game-box" id="game-box">
+ <div class="click1" id="click1" onclick="hide1(); counti();"> </div>
+ <div class="click2" id="click2" onclick="hide2(); counti();"> </div>
+ <div class="click3" id="click3" onclick="hide3(); counti();"> </div>
+ <div class="click4" id="click4" onclick="hide4(); counti();"> </div>
+ <div class="click5" id="click5" onclick="hide5(); counti();"> </div>
+ <div class="click6" id="click6" onclick="hide6(); counti();"> </div>
+ <div class="click7" id="click7" onclick="hide7(); counti();"> </div>
+ <div class="click8" id="click8" onclick="hide8(); counti();"> </div>
+ <div class="click9" id="click9" onclick="hide9(); "></div>
+ <div class="click10" id="click10" onclick="hide9(); "></div>
+ <div class="click11" id="click11" onclick="hide9(); "></div>
+ <div class="click12" id="click12" onclick="hide9(); "></div>
+ <div class="click13" id="click13" onclick="hide9(); "></div>
+ <div class="click14" id="click14" onclick="hide9(); "></div>
+ <div class="click15" id="click15" onclick="hide9(); "></div>
+ <div class="click16" id="click16" onclick="hide9(); "></div>
+  </div>
+   <div class="container mt-0 score_container bg-info">
+        <div class="row ">
+        
+          <div class="col  d-flex justify-content-center ">
+             <div class=" text-center text-white display-4 font-weight-bold mr-3">Your  Score:</div>
+              <div id="score" class="text-center display-4 text-danger font-weight-bold mt-1">0 </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col d-flex justify-content-center">
+            <a href="index.html" class="btn btn-dark  p-2 mr-1 ">Easy Level</a>
+               <a  href="mediumlevel.html" class="btn btn-dark  p-2 mr-1 ">Medium Level</a>
+                  <a  href="hardlevel.html" class="btn btn-dark  p-2 ">Hard Level</a>
+    
+  
+</div>
+
+<div class="col-12"> <div id="congrats" class="text-white text-center display-5 font-weight-bold"></div></div>
+ 
+  </div>
+  </div>
+  
+  
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!--ionic icon -->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <!--app.js-->
+    <script src="resources/js/hardlevel.js"></script>
+    
+</body>
+
+</html>

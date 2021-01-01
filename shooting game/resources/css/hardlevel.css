@@ -1,0 +1,396 @@
+
+.click1{
+    cursor: crosshair;
+    
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    -webkit-animation: click1  3s ease-in 0s infinite ;
+    animation: click1  3s ease-in 0s infinite ;
+   
+}
+.click2{
+    cursor: crosshair;
+   
+    bottom: 0;
+    right: 100%;
+    position: absolute;
+    -webkit-animation: click2  2s ease-in 0s infinite ;
+    animation: click2  2s ease-in 0s infinite ;
+   
+}
+.click3{
+    cursor: crosshair;
+   
+    bottom: 0;
+    right: 10%;
+    position: absolute;
+    -webkit-animation: click3  2s ease-in 0s infinite ;
+    animation: click3  2s ease-in 0s infinite ;
+  
+}
+.click4{
+    cursor: crosshair;
+     
+    bottom: 0;
+    right: 90%;
+    position: absolute;
+    -webkit-animation: click4  2s ease-in 0s infinite ;
+    animation: click4  2s ease-in 0s infinite ;
+ 
+}
+.click5{
+    cursor: crosshair;
+   
+    bottom: 0;
+    right: 80%;
+    position: absolute;
+    -webkit-animation: click5  2s ease-in 0s infinite ;
+    animation: click5  2s ease-in 0s infinite ;
+    
+}
+.click6{
+    cursor: crosshair;
+ 
+    bottom: 0;
+    right: 60%;
+    position: absolute;
+    -webkit-animation: click6  1s ease-in 0s infinite ;
+    animation: click6  1s ease-in 0s infinite ;
+   
+}
+.click7{
+    cursor: crosshair;
+   
+    bottom: 0;
+    right: 40%;
+    position: absolute;
+    -webkit-animation: click7  1s ease-in 0s infinite ;
+    animation: click7  1s ease-in 0s infinite ;
+   
+}
+.click8{
+    cursor: crosshair;
+    
+    bottom: 0;
+    right: 20%;
+    position: absolute;
+    -webkit-animation: click8  2s ease-in 0s infinite ;
+    animation: click8  2s ease-in 0s infinite ;
+    
+}
+
+.click9{
+    cursor: crosshair;
+    
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    -webkit-animation: click9  4s ease-in 0s infinite ;
+    animation: click9  4s ease-in 0s infinite ;
+    
+}
+.click10{
+    cursor: crosshair;
+   
+    bottom: 0;
+    right: 100%;
+    position: absolute;
+    -webkit-animation: click10  3s ease-in 0s infinite ;
+    animation: click10  3s ease-in 0s infinite ;
+    
+}
+.click11{
+    cursor: crosshair;
+     
+    bottom: 0;
+    right: 10%;
+    position: absolute;
+    -webkit-animation: click11  4s ease-in 0s infinite ;
+    animation: click11  4s ease-in 0s infinite ;
+    
+}
+.click12{
+    cursor: crosshair;
+     width: 120px;
+    height: 100px;
+    bottom: 0;
+    right: 90%;
+    position: absolute;
+    -webkit-animation: click12  3s ease-in 0s infinite ;
+    animation: click12  3s ease-in 0s infinite ;
+   
+}
+.click13{
+    cursor: crosshair;
+   
+    bottom: 0;
+    right: 80%;
+    position: absolute;
+    -webkit-animation: click13  4s ease-in 0s infinite ;
+    animation: click13  4s ease-in 0s infinite ;
+    
+}
+.click14{
+    cursor: crosshair;
+     
+    bottom: 0;
+    right: 60%;
+    position: absolute;
+    -webkit-animation: click14  3s ease-in 0s infinite ;
+    animation: click14  3s ease-in 0s infinite ;
+    
+}
+.click15{
+    cursor: crosshair;
+    
+    bottom: 0;
+    right: 40%;
+    position: absolute;
+    -webkit-animation: click15  4s ease-in 0s infinite ;
+    animation: click15  4s ease-in 0s infinite ;
+   
+}
+.click16{
+    cursor: crosshair;
+    
+    bottom: 0;
+    right: 20%;
+    position: absolute;
+    -webkit-animation: click16  3s ease-in 0s infinite ;
+    animation: click16  3s ease-in 0s infinite ;
+    
+}
+@-webkit-keyframes click1 {
+  0%  {bottom:0; right: 0; }
+ 50%  {bottom:80%; right: 50%; }
+ 100% {bottom: 0; right: 100%; }
+
+}
+@keyframes click1 {
+  0%  {bottom:0; right: 0; }
+ 50%  {bottom:80%; right: 50%; }
+ 100% {bottom: 0; right: 100%; }
+
+}
+@-webkit-keyframes click2 {
+  0%  {bottom:0; right: 100%; }
+ 50%  {bottom:80%; right: 50%; }
+ 100% {bottom: 0; right: 0%; }
+
+}
+@keyframes click2 {
+  0%  {bottom:0; right: 100%; }
+ 50%  {bottom:80%; right: 50%; }
+ 100% {bottom: 0; right: 0%; }
+
+}
+@-webkit-keyframes click3 {
+  0%  {bottom:0; right: 10%; }
+ 50%  {bottom:70%; right: 50%; }
+ 100% {bottom: 0; right: 90%; }
+
+}
+@keyframes click3 {
+  0%  {bottom:0; right: 10%; }
+ 50%  {bottom:70%; right: 50%; }
+ 100% {bottom: 0; right: 90%; }
+
+}
+@-webkit-keyframes click4 {
+  0%  {bottom:0; right: 90%; }
+ 50%  {bottom:70%; right: 50%; }
+ 100% {bottom: 0; right: 10%; }
+
+}
+@keyframes click4 {
+  0%  {bottom:0; right: 90%; }
+ 50%  {bottom:70%; right: 50%; }
+ 100% {bottom: 0; right: 10%; }
+
+}
+@-webkit-keyframes click5 {
+  0%  {bottom:0; right: 80%; }
+ 50%  {bottom:80%; right: 70%; }
+ 100% {bottom: 0; right: 60%; }
+
+}
+@keyframes click5 {
+  0%  {bottom:0; right: 80%; }
+ 50%  {bottom:80%; right: 70%; }
+ 100% {bottom: 0; right: 60%; }
+
+}
+@-webkit-keyframes click6 {
+  0%  {bottom:0; right: 60%; }
+ 50%  {bottom:80%; right: 70%; }
+ 100% {bottom: 0; right: 80%; }
+
+}
+@keyframes click6 {
+  0%  {bottom:0; right: 60%; }
+ 50%  {bottom:80%; right: 70%; }
+ 100% {bottom: 0; right: 80%; }
+
+}
+@-webkit-keyframes click7 {
+  0%  {bottom:0; right: 40%; }
+ 50%  {bottom:80%; right: 30%; }
+ 100% {bottom: 0; right: 20%; }
+
+}
+@keyframes click7 {
+  0%  {bottom:0; right: 40%; }
+ 50%  {bottom:80%; right: 30%; }
+ 100% {bottom: 0; right: 20%; }
+
+}
+@-webkit-keyframes click8 {
+  0%  {bottom:0; right: 20%; }
+ 50%  {bottom:80%; right: 30%; }
+ 100% {bottom: 0; right: 40%; }
+
+}
+@keyframes click8 {
+  0%  {bottom:0; right: 20%; }
+ 50%  {bottom:80%; right: 30%; }
+ 100% {bottom: 0; right: 40%; }
+
+}
+@-webkit-keyframes click9 {
+  0%  {bottom:0; right: 0; }
+ 50%  {bottom:80%; right: 50%; }
+ 100% {bottom: 0; right: 100%; }
+
+}
+@keyframes click9 {
+  0%  {bottom:0; right: 0; }
+ 50%  {bottom:80%; right: 50%; }
+ 100% {bottom: 0; right: 100%; }
+
+}
+@-webkit-keyframes click10 {
+  0%  {bottom:0; right: 100%; }
+ 50%  {bottom:80%; right: 50%; }
+ 100% {bottom: 0; right: 0%; }
+
+}
+@keyframes click10 {
+  0%  {bottom:0; right: 100%; }
+ 50%  {bottom:80%; right: 50%; }
+ 100% {bottom: 0; right: 0%; }
+
+}
+@-webkit-keyframes click11 {
+  0%  {bottom:0; right: 10%; }
+ 50%  {bottom:70%; right: 50%; }
+ 100% {bottom: 0; right: 90%; }
+
+}
+@keyframes click11 {
+  0%  {bottom:0; right: 10%; }
+ 50%  {bottom:70%; right: 50%; }
+ 100% {bottom: 0; right: 90%; }
+
+}
+@-webkit-keyframes click12 {
+  0%  {bottom:0; right: 90%; }
+ 50%  {bottom:70%; right: 50%; }
+ 100% {bottom: 0; right: 10%; }
+
+}
+@keyframes click12 {
+  0%  {bottom:0; right: 90%; }
+ 50%  {bottom:70%; right: 50%; }
+ 100% {bottom: 0; right: 10%; }
+
+}
+@-webkit-keyframes click13 {
+  0%  {bottom:0; right: 80%; }
+ 50%  {bottom:80%; right: 70%; }
+ 100% {bottom: 0; right: 60%; }
+
+}
+@keyframes click13 {
+  0%  {bottom:0; right: 80%; }
+ 50%  {bottom:80%; right: 70%; }
+ 100% {bottom: 0; right: 60%; }
+
+}
+@-webkit-keyframes click14 {
+  0%  {bottom:0; right: 60%; }
+ 50%  {bottom:80%; right: 70%; }
+ 100% {bottom: 0; right: 80%; }
+
+}
+@keyframes click14 {
+  0%  {bottom:0; right: 60%; }
+ 50%  {bottom:80%; right: 70%; }
+ 100% {bottom: 0; right: 80%; }
+
+}
+@-webkit-keyframes click15 {
+  0%  {bottom:0; right: 40%; }
+ 50%  {bottom:80%; right: 30%; }
+ 100% {bottom: 0; right: 20%; }
+
+}
+@keyframes click15 {
+  0%  {bottom:0; right: 40%; }
+ 50%  {bottom:80%; right: 30%; }
+ 100% {bottom: 0; right: 20%; }
+
+}
+@-webkit-keyframes click16 {
+  0%  {bottom:0; right: 20%; }
+ 50%  {bottom:80%; right: 30%; }
+ 100% {bottom: 0; right: 40%; }
+
+}
+@keyframes click16 {
+  0%  {bottom:0; right: 20%; }
+ 50%  {bottom:80%; right: 30%; }
+ 100% {bottom: 0; right: 40%; }
+
+}
+.container-fluid{
+    position: relative;
+    min-height: 80vh;
+    cursor: crosshair
+}
+
+
+.score_container {
+    min-height:15vh; 
+}
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+.bomb {
+    font-size: 4rem;
+    color: black;
+}
+}
+
+
+.click1:before, .click2:before,  .click3:before,  .click4:before,  .click5:before,  .click6:before,  .click7:before,  .click8:before{
+    content: "\f004";
+    font-family: FontAwesome;
+
+    color: red;
+    font-size: 8rem;
+   
+}
+.click9:before, .click10:before,  .click11:before,  .click12:before,  .click13:before,  .click14:before,  .click15:before,  .click16:before{
+     content: "\f1e2";
+    font-family: FontAwesome;
+
+   color:black;
+    font-size: 5rem;
+   
+}
+
+
